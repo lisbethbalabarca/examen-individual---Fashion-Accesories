@@ -1,0 +1,290 @@
+include mixins/mixins.jade
+
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	meta( http-equiv='X-UA-Compatible', content='IE=edge')
+	meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+	title Fashion Accesories
+	link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+	link(rel="stylesheet", href="assets/css/bootstrap.css")
+	link(rel="stylesheet", href="assets/sass/main.css")
+
+body
+	header
+		.container-fluid
+			.row.navbar
+				.col-md-4.welcome Default welcome Msg!
+				.col-md-6.item
+					ul
+						li Languaje
+						li Cureency
+						li My Acount
+			.row.intro
+				.col-md-4.time
+					.col-md-2 <i class="fa fa-clock-o"></i>
+					.col-md-6.horario
+						h4 OPENING TIME
+						p 9:00 AM - 10:00 PM
+				.col-md-4.logo
+					img(src="assets/images/logo.png", alt="")
+				.col-md-4.buscador
+					input(type="text" placeholder=" Buscar") 
+					<i class="fa fa-search"></i>
+			.row.navbar
+				.col-md-6.tab
+					a(href="#") Home
+					a(href="#") Contact Us
+				.col-md-6.cart
+					p <i class="fa fa-shopping-cart"></i> My Cart
+					p 2 Item(s)- $244.00
+	section#hero.text-center
+		.intro-text
+			h1 Autumn Winter Lookbook
+		.intro-subtext
+			h4 -2016 COLLECTION-
+	section#product
+		.container
+			.row
+				.col-md-5.accesories
+				.col-md-7.arrival
+			nav.text-center.list
+				ul.pagination
+					li
+						a(href='#', aria-label='Previous')
+							span(aria-hidden='true') «	
+					li
+						a(href='#') Latest
+					li
+						a(href='#') Betseller
+					li
+						a(href='#') Sale
+					li
+						a(href='#', aria-label='Next')
+							span(aria-hidden='true') »	
+			.row
+				.col-md-3.text-center
+					img(src="assets/images/a1.jpg", alt="")
+					h4 Deliver Wide
+					.star
+						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					p $218.00
+				.col-md-3.text-center
+					img(src="assets/images/b1.jpg", alt="")
+					h4 Deliver Wide
+					.star
+						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					p $218.00
+				.col-md-3.text-center
+					img(src="assets/images/c1.jpg", alt="")
+					h4 Deliver Wide
+					.star
+						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					p $218.00
+				.col-md-3.text-center
+					img(src="assets/images/d1.jpg", alt="")
+					h4 Deliver Wide
+					.star
+						<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+					p $218.00
+	section#sponsor
+		.container
+			.row
+				.col-md-2.client
+					img(src="assets/images/client1.jpg", alt="")
+				.col-md-2.client
+					img(src="assets/images/client2.jpg", alt="")
+				.col-md-2.client
+					img(src="assets/images/client3.jpg", alt="")
+				.col-md-2.client
+					img(src="assets/images/client4.jpg", alt="")
+				.col-md-2.client
+					img(src="assets/images/client5.jpg", alt="")
+				.col-md-2.client
+					img(src="assets/images/client6.jpg", alt="")
+
+	section#products
+		nav.text-center.list
+				ul.pagination
+					li
+						a(href='#', aria-label='Previous')
+							span(aria-hidden='true') «	
+					li
+						a(href='#') CLOTHING
+					li
+						a(href='#') EQUIPMENTS
+					li
+						a(href='#') JEWERLLY
+					li
+						a(href='#', aria-label='Next')
+							span(aria-hidden='true') »
+		.container
+			.row
+				.col-md-4
+					.col-md-6
+						img.catalogo(src="assets/images/a2.jpg", alt="")
+					.col-md-6
+						h4 Deliver Wide
+						.star
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+						p $218.00
+						button <i class="fa fa-shopping-cart"></i> Add To Cart
+				.col-md-4
+					.col-md-6
+						img.catalogo(src="assets/images/d2.jpg", alt="")
+					.col-md-6
+						h4 Deliver Wide
+						.star
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+						p $218.00
+						button <i class="fa fa-shopping-cart"></i> Add To Cart
+				.col-md-4
+					.col-md-6
+						img.catalogo(src="assets/images/g2.jpg", alt="")
+					.col-md-6
+						h4 Deliver Wide
+						.star
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+						p $218.00
+						button <i class="fa fa-shopping-cart"></i> Add To 
+			.row
+				.col-md-4
+					.col-md-6
+						img.catalogo(src="assets/images/c2.jpg", alt="")
+					.col-md-6
+						h4 Deliver Wide
+						.star
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+						p $218.00
+						button <i class="fa fa-shopping-cart"></i> Add To Cart
+				.col-md-4
+					.col-md-6
+						img.catalogo(src="assets/images/c2.jpg", alt="")
+					.col-md-6
+						h4 Deliver Wide
+						.star
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+						p $218.00
+						button <i class="fa fa-shopping-cart"></i> Add To Cart
+				.col-md-4
+					.col-md-6
+						img.catalogo(src="assets/images/e2.jpg", alt="")
+					.col-md-6
+						h4 Deliver Wide
+						.star
+							<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i>
+						p $218.00
+						button <i class="fa fa-shopping-cart"></i> Add To Cart
+	section#blog
+		.container.text-center
+			h1 <i class="fa fa-angle-left"></i> BLOG <i class="fa fa-angle-right"></i>
+			.row.text-left
+				.col-md-3
+					img(src="assets/images/blog2.jpg", alt="")
+					h5 THE SAMPLE HEADING TITLE
+					p 21/11/2015
+					p lorem ipsum dolor sit amet, consectetur adipisinc ing elit, sed do...
+					a(href="#") Read More...
+				.col-md-3
+					img(src="assets/images/blog1.jpg", alt="")
+					h5 THE SAMPLE HEADING TITLE
+					p 21/11/2015
+					p lorem ipsum dolor sit amet, consectetur adipisinc ing elit, sed do...
+					a(href="#") Read More...
+				.col-md-3
+					img(src="assets/images/blog2.jpg", alt="")
+					h5 THE SAMPLE HEADING TITLE
+					p 21/11/2015
+					p lorem ipsum dolor sit amet, consectetur adipisinc ing elit, sed do...
+					a(href="#") Read More...
+				.col-md-3
+					img(src="assets/images/blog3.jpg", alt="")
+					h5 THE SAMPLE HEADING TITLE
+					p 21/11/2015
+					p lorem ipsum dolor sit amet, consectetur adipisinc ing elit, sed do...
+					a(href="#") Read More...
+	section#envio
+		.container
+			.row
+				.col-md-4.border
+					.col-md-2
+						<i class="fa fa-phone-square"></i>
+					.col-md-10
+						h4 ORDER ONLINE NOW
+						p Call Us:(0123) 456 789
+				.col-md-4.border
+					.col-md-2
+						<i class="fa fa-phone-square"></i>
+					.col-md-10
+						h4 FREE WORLD SHIPPING
+						p On Order Over $100
+				.col-md-4.border
+					.col-md-2
+						<i class="fa fa-phone-square"></i>
+					.col-md-10
+						h4  30 DAYS MONEY BACK 100%
+						p Satisfaction Guarantee
+	section#bottom
+		.container
+			.row
+				.col-md-3
+					h5 ACCESORIES
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et perferendis corporis, at, id quae velit totam quam magnam reprehenderit dolorum fuga ab eum doloribus quisquam incidunt nam voluptate suscipit in!
+				.col-md-2
+					h5 MY ACOOUNT
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i>My Account
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Order History
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Wish List
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Newsletter
+
+				.col-md-2
+					h5 INFORMATION
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i>About Us
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Delivery Information
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Privacy Policy
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Term & Conditions
+				.col-md-2
+					h5 EXTRAS
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Brands
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Gift Voucher
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Affiliates
+
+					li 
+						a(href="#")<i class="fa fa-caret-right"></i> Specials
+				.col-md-3
+					h5 ABOUT US
+					ul.addres
+						li 
+							span <i class="fa fa-map-marker"></i>8901 Marmora Road, Glasgow D04 89 
+							p GR, New York
+						li 
+							span <i class="fa fa-phone"></i>(0123) 456789
+							p (0987) 654 321
+						li 
+							span <i class="fa fa-envelope"></i> admin@bootexperts.com
+	footer
+		.container
+			.row
+				.col-md-6 Copyright &#169 2015 BootExperts. All rights reserved
+				.col-md-3
+					img(src="assets/images/payment.png", alt="")

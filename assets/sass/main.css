@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,300);
+* {
+  font-family: "Raleway", sans-serif; }
+
+img {
+  width: 100%; }
+
+header .navbar {
+  background-color: #eee; }
+header .welcome {
+  padding: 1%;
+  margin-left: 10%; }
+header .item {
+  padding: 1%; }
+  header .item ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0; }
+  header .item li {
+    display: inline;
+    padding: 2%; }
+header .time i {
+  font-size: 55px; }
+header .time p, header .time h4 {
+  margin-bottom: 0; }
+header .time h4 {
+  font-weight: bold; }
+header .logo img {
+  width: 70%;
+  margin: 0 auto; }
+header .buscador input {
+  border: none;
+  width: 70%; }
+header .buscador i {
+  color: #eee; }
+header .intro {
+  padding: 3%; }
+header .navbar {
+  margin-bottom: 0; }
+  header .navbar .tab {
+    margin-top: 2%; }
+    header .navbar .tab a {
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 5%;
+      margin-top: 4%; }
+      header .navbar .tab a:hover {
+        background-color: #e67f80;
+        color: white;
+        text-decoration: none; }
+  header .navbar .cart {
+    float: right;
+    width: 12%;
+    padding: 0.5%;
+    margin-right: 10%; }
+    header .navbar .cart:hover {
+      background-color: #000;
+      color: #fff; }
+
+#hero {
+  background: url("../images/slider1.jpg");
+  background-size: cover;
+  height: 500px; }
+  #hero .intro-text {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border: solid 2px #fff;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 32%; }
+  #hero .intro-subtext {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 32%; }
+
+#product .accesories {
+  background: url("../images/banner1.jpg");
+  background-size: cover;
+  height: 350px;
+  padding: 3%; }
+#product .arrival {
+  background: url("../images/banner2.jpg");
+  background-size: cover;
+  height: 350px; }
+#product .list {
+  text-transform: uppercase;
+  font-size: 22px; }
+  #product .list a {
+    border: none;
+    color: #dfdfdf; }
+    #product .list a:hover {
+      color: #000;
+      background-color: transparent;
+      font-weight: bold; }
+
+#sponsor {
+  background: url("../images/client-bg.jpg") no-repeat;
+  background-size: cover;
+  height: 250px; }
+  #sponsor .client img {
+    margin-top: 50%; }
+
+/*# sourceMappingURL=main.css.map */
